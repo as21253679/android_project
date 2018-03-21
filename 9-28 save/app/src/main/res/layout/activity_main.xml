@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.bet.a8_17.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="台中市"
+        android:id="@+id/Country"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:autoText="false"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/_2016_05_08"
+        android:id="@+id/date"
+        android:textSize="20sp"
+        android:layout_below="@+id/UVI0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="下午3:50"
+        android:id="@+id/time"
+        android:textSize="20dp"
+        android:layout_below="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/UVI0"
+        android:textColor="#dedede"
+        android:layout_alignTop="@+id/UVI1"
+        android:layout_toLeftOf="@id/UVI1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="1"
+        android:id="@+id/UVI1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI2"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="2"
+        android:id="@+id/UVI2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:textColor="#f7dc6e"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/UVI3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="3"
+        android:id="@+id/UVI3"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI2"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="4"
+        android:id="@+id/UVI4"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI3"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="5"
+        android:id="@+id/UVI5"
+        android:layout_alignBottom="@+id/UVI4"
+        android:layout_marginLeft="5dp"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="6"
+        android:id="@+id/UVI6"
+        android:layout_alignBottom="@+id/UVI5"
+        android:layout_marginLeft="5dp"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="7"
+        android:id="@+id/UVI7"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI6"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="8"
+        android:id="@+id/UVI8"
+        android:layout_alignBottom="@+id/UVI7"
+        android:layout_marginLeft="5dp"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="9"
+        android:id="@+id/UVI9"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI8"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="10"
+        android:id="@+id/UVI10"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI9"
+        android:textColor="#dedede"
+        android:layout_toLeftOf="@+id/UVI11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="11+"
+        android:id="@+id/UVI11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/UVI10"
+        android:layout_alignParentRight="true"
+        android:textColor="#dedede" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="強度較強，建議穿上長袖上衣，配戴太陽眼鏡，避免於上午10點至下午2點間外出， 需塗擦SPF20以的防曬霜。 "
+        android:id="@+id/suggest_UVI"
+        android:layout_alignTop="@+id/UVI1"
+        android:textSize="18dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/GSR"
+        android:layout_toEndOf="@+id/GSR" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="0"
+        android:id="@+id/GSR"
+        android:background="@drawable/rounded_textview"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="65dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="晴朗"
+        android:id="@+id/weather_text"
+        android:textSize="20dp"
+        android:textIsSelectable="true"
+        android:layout_below="@+id/temp"
+        android:layout_alignLeft="@+id/UVI0"
+        android:layout_alignStart="@+id/UVI0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="27"
+        android:id="@+id/temp"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/min_temp"
+        android:layout_alignRight="@+id/UVI9"
+        android:layout_alignEnd="@+id/UVI9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="31"
+        android:id="@+id/max_temp"
+        android:textSize="18dp"
+        android:layout_toRightOf="@+id/UVI10"
+        android:layout_toEndOf="@+id/UVI10"
+        android:layout_alignTop="@+id/rainy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="24"
+        android:id="@+id/min_temp"
+        android:layout_alignLeft="@+id/max_temp"
+        android:layout_alignStart="@+id/max_temp"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/max_temp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bigwater"
+        android:layout_alignBottom="@+id/min_temp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="降雨機率"
+        android:id="@+id/textView9"
+        android:textSize="26dp"
+        android:layout_below="@+id/time"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/date"
+        android:layout_alignEnd="@+id/date" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:id="@+id/rainy"
+        android:textSize="26dp"
+
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/weather_text"
+        android:layout_marginTop="245dp"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="使用方法："
+        android:id="@+id/textView11"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/weather_text"
+        android:layout_alignRight="@+id/temp"
+        android:layout_alignEnd="@+id/temp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="將臉頰靠近測試儀5秒即可。"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="含水量"
+        android:id="@+id/textView14"
+        android:gravity="center"
+        android:layout_above="@+id/button"
+        android:layout_toLeftOf="@+id/suggest_UVI"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="開始測試"
+        android:background="@drawable/design"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/GSR"
+        android:layout_toRightOf="@+id/UVI2"
+        android:layout_toEndOf="@+id/UVI2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="皮膚程度："
+        android:id="@+id/textView16"
+        android:textSize="22dp"
+        android:layout_above="@+id/textView14"
+        android:layout_alignRight="@+id/UVI8"
+        android:layout_alignEnd="@+id/UVI8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="-"
+        android:id="@+id/skinlv"
+        android:textSize="22dp"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:src="@drawable/lines"
+        android:layout_above="@+id/GSR"
+        android:layout_below="@+id/weather" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="測試紀錄"
+        android:background="@drawable/design"
+        android:id="@+id/button2"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按此檢測紫外線"
+        android:id="@+id/uvibutton"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/weather"
+        android:src="@drawable/sun"
+        android:layout_below="@+id/suggest_UVI"
+        android:layout_toLeftOf="@+id/UVI7"
+        android:layout_toStartOf="@+id/UVI7" />
+
+</RelativeLayout>
